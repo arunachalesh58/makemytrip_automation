@@ -8,7 +8,7 @@ public class sample {
     WebDriver driver;
     public void launch() throws InterruptedException
     {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\bunke\\Downloads\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver/path.exe");
         driver = new ChromeDriver();
         driver.get("https://www.makemytrip.com/railways/");
         String title = driver.getTitle();
